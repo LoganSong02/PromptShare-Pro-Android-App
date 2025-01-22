@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="3dp"
+    android:background="@drawable/rounded_background">
+
+    <!-- Horizontal Layout for Post Title and Date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Post Title aligned to the start -->
+        <TextView
+            android:id="@+id/postTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Post Title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <!-- Date aligned to the end -->
+        <TextView
+            android:id="@+id/postDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <!-- Author's Email -->
+    <TextView
+        android:id="@+id/postAuthorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author Email"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+</LinearLayout>

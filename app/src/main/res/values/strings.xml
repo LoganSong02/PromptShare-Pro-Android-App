@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PromptSharePro22</string>
+    <string name="chatgpt_4o">ChatGPT 4o</string>
+    <string name="claude">Claude</string>
+    <string name="gemini">Gemini</string>
+    <string name="llama">LLaMA</string>
+    <string-array name="search_types">
+        <item>Search by Default</item>
+        <item>Search by LLM Kind</item>
+        <item>Search by Titles</item>
+        <item>Full Text Search</item>
+    </string-array>
+    <string-array name="sort_options">
+        <item>Sort by Default</item>
+        <item>Sort by Most Recent</item>
+        <item>Sort by Title</item>
+        <item>Sort by LLM Kind</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "25229135165",
+    "project_id": "promptsharepro22-26d0e",
+    "storage_bucket": "promptsharepro22-26d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25229135165:android:cf87fdab6a76c8b9958954",
+        "android_client_info": {
+          "package_name": "com.example.promptsharepro22"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBupwLl64MYsf3uGOTnnIYLWvtfNBoYhw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
